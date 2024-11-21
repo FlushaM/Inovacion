@@ -1,0 +1,114 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Inspirando Mujeres en Minería</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="Historias de éxito de mujeres en la minería chilena" />
+		<meta name="keywords" content="Minería, Mujeres, Éxito, Inspiración, Chile" />
+		{% load static %}
+		<link rel="stylesheet" href="{% static 'css/main.css' %}" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Intro -->
+					<section class="intro">
+						<header>
+							<h1>Inspirando Mujeres en Minería</h1>
+							<p>Un espacio dedicado a destacar historias de éxito y fomentar la equidad en el rubro minero chileno.</p>
+							<ul class="actions">
+								<li><a href="#about" class="arrow scrolly"><span class="label">Descubre Más</span></a></li>
+							</ul>
+						</header>
+						<div class="content">
+							<span class="image fill" data-position="center"><img src="{% static 'img/hero-mineria.jpg' %}" alt="Minería en Chile" /></span>
+						</div>
+					</section>
+
+				<!-- About Us Section -->
+					<section id="about">
+						<header>
+							<h2>¿Quiénes Somos?</h2>
+						</header>
+						<div class="content">
+							<p>Somos una iniciativa que busca visibilizar y promover el talento femenino en la industria minera de Chile. A través de historias inspiradoras y perfiles destacados, buscamos motivar a mujeres de todas las edades a seguir sus sueños y construir un futuro equitativo en un sector clave de nuestra economía.</p>
+							<span class="image main"><img src="{% static 'img/about-us.jpg' %}" alt="Equipo de mujeres en minería" /></span>
+						</div>
+					</section>
+
+				<!-- Success Stories Section -->
+					<section id="stories">
+						<header>
+							<h2>Historias de Éxito</h2>
+						</header>
+						<div class="content">
+							<p>Descubre las historias de mujeres que han dejado una huella en la minería chilena. Sus logros y aprendizajes son una fuente de inspiración para futuras generaciones.</p>
+							<div class="gallery">
+								<a href="{% static 'img/fulls/01.jpg' %}" class="landscape"><img src="{% static 'img/thumbs/01.jpg' %}" alt="Mujer minera 1" /></a>
+								<a href="{% static 'img/fulls/02.jpg' %}"><img src="{% static 'img/thumbs/02.jpg' %}" alt="Mujer minera 2" /></a>
+								<a href="{% static 'img/fulls/03.jpg' %}"><img src="{% static 'img/thumbs/03.jpg' %}" alt="Mujer minera 3" /></a>
+								<a href="{% static 'img/fulls/04.jpg' %}" class="landscape"><img src="{% static 'img/thumbs/04.jpg' %}" alt="Mujer minera 4" /></a>
+							</div>
+						</div>
+					</section>
+
+				<!-- Contact Section -->
+					<section id="contact">
+						<header>
+							<h2>Contáctanos</h2>
+						</header>
+						<div class="content">
+							<p>Si tienes alguna historia para compartir, preguntas sobre nuestra iniciativa, o simplemente quieres conocernos más, no dudes en escribirnos.</p>
+							<form method="post" action="#contact">
+								<div class="fields">
+									<div class="field half">
+										<input type="text" name="name" id="name" placeholder="Tu Nombre" />
+									</div>
+									<div class="field half">
+										<input type="email" name="email" id="email" placeholder="Tu Correo Electrónico" />
+									</div>
+									<div class="field">
+										<textarea name="message" id="message" placeholder="Tu Mensaje" rows="7"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Enviar Mensaje" class="button primary" /></li>
+								</ul>
+							</form>
+						</div>
+						<footer>
+							<ul class="items">
+								<li>
+									<h3>Email</h3>
+									<a href="mailto:contacto@mineriafemenina.cl">contacto@mineriafemenina.cl</a>
+								</li>
+								<li>
+									<h3>Teléfono</h3>
+									<a href="tel:+56912345678">+56 9 1234 5678</a>
+								</li>
+								<li>
+									<h3>Dirección</h3>
+									<span>Santiago, Chile</span>
+								</li>
+							</ul>
+						</footer>
+					</section>
+
+				<!-- Footer -->
+					<div class="copyright">&copy; 2024 Inspirando Mujeres en Minería. Todos los derechos reservados.</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="{% static 'js/jquery.min.js' %}"></script>
+			<script src="{% static 'js/jquery.scrolly.min.js' %}"></script>
+			<script src="{% static 'js/browser.min.js' %}"></script>
+			<script src="{% static 'js/breakpoints.min.js' %}"></script>
+			<script src="{% static 'js/util.js' %}"></script>
+			<script src="{% static 'js/main.js' %}"></script>
+
+	</body>
+</html>
